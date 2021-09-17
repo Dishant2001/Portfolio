@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   margin:0.5em;
   margin-top: 1em;
   margin-bottom: 1em;
-  border: #18d26e 0.05em none; padding: 1.5em;color: white;text-align: center;
+  border: white 0.05em solid; padding: 1.5em;text-align: center;
   /* border-top-left-radius: 3em;
   border-bottom-right-radius: 3em;
   border-top: none;
