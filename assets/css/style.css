@@ -177,6 +177,10 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none; */
   /* border-radius: 40%; */
   color: #18d26e;
+  border-radius: 50%; 
+  border-top: none;
+  border-right: none;
+  border-left: none;
   /* border:none; */
   transition: 1s;
 }
