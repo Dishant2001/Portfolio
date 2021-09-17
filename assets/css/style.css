@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 .print:hover{
   color: white;
   border-color: #18d26e;
-  width: 30%;
+  /* width: 30%; */
   
 }
 
