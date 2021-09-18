@@ -275,7 +275,10 @@ function validateEmail(email) {
   return re.test(email);
 }
 
-function sendEmail(params){
+
+
+function sendEmail(){
+
   if(document.getElementById('email').value.length!=0 && document.getElementById('msg').value.length!=0 && validateEmail(document.getElementById('email').value)){
   var tempParams={
     from_name:document.getElementById('email').value,
