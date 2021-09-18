@@ -288,7 +288,8 @@ function sendEmail(){
   emailjs.send('service_x87n3rb','template_v19gw8m',tempParams)
   .then(function(res){
     console.log("success",res.status);
-  })}
+  })
+.then(alert("Email Sent!"))}
   else{
     alert('Enter valid name, email id, and message!');
   }
